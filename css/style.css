@@ -1,0 +1,153 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: 404040;
+}
+
+/* titulos y vanbar */
+.tituloYNavegable {
+    background-color: #404040;
+
+}
+
+.tituloYNavegable h1 {
+    font-size: 5rem;
+    color: #cdcdcd;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    text-decoration:underline;
+}
+
+.navegable {
+   
+
+    background-color: #404040;
+
+
+}
+/* diseño de botones del navbar */
+.navegable a {
+    text-decoration: none;
+    
+
+
+}
+.navegable ul{
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+     
+}
+.navegable ul li{
+ 
+    padding: 0.6rem;
+    border: 0.1rem solid #e9f1e9;
+    border-radius: 0.3rem;
+    
+    margin: 1rem;
+}
+/* body configuracion */
+.cuerpoPagina{
+    background-color: #404040;
+}
+
+.textoInfo{
+
+    display: inline-flex;
+    padding: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px; 
+    color:  #cdcdcd ;
+    text-align: start;
+    background-color: #404040;
+
+}
+.info{
+    background-color: #404040;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ /* footer configuracion */
+.pieDePagina{
+    background-color: #404040;
+    align-items: center;
+    justify-content: center;
+  
+
+}
+/* configuracion cuerpo Microprocesadores */
+
+.datosMicros {
+    background-color: #404040;
+    font-family: monospace;
+}
+.accordion-body{
+    background-color: #2b2b2b;
+    color: #cdcdcd;
+    font-size: 1.2rem;
+}
+.cardProcesadores{
+    background-color: #404040;
+    font-family: monospace;
+    padding: 2rem;
+    display: flex;
+}
+.card-body{
+    background-color: #47403f;
+    padding: 2rem;
+    color: white;
+}
+
+.cardProcesadores ul{
+    text-decoration:none;
+    list-style: none;
+    color: white;
+}
+/* configuracion Cuerpo MOthers */
+.cuerpoMothers{
+    background-color: #404040;
+    display: grid;
+    padding: 3rem;
+    justify-content: center;
+    align-items: center;
+    text-justify: center;
+
+}
+.infoPrincipal p{
+    color: white;
+    border: .3rem solid #412e2b;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align:justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #4e4e4e;
+}
+.infoPrincipal h2{
+    text-align: center;
+    font-family: monospace;
+    font-size: 2rem;
+    text-decoration: underline;
+    color: white;
+    display: flex;
+}
+.tipoMother{
+    color: white;
+    border: .3rem solid #412e2b;
+    border-radius: 1rem;
+    padding: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #4e4e4e;
+    display: inline-block;
+    
+}
+
+.perifericosPanel{
+    color: white;
+    border: .3rem solid #412e2b;
+    border-radius: 1rem;
+    padding: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #4e4e4e;
+    
+}
