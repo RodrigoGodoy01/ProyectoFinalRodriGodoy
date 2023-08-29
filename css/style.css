@@ -151,3 +151,26 @@
     background-color: #4e4e4e;
     
 }
+/* Cuerpo Ram */
+.cuerpoRam{
+    background-color: #404040;
+    justify-content: center;
+    align-items: center;
+    text-justify: center;
+    display: block;
+}
+.infoRam{
+    color: white;
+    border: .3rem solid #412e2b;
+    border-radius: 1rem;
+    padding: 2rem;
+
+}
+.infoRam h5{
+    text-align: center;
+    font-family: monospace;
+    font-size: 2rem;
+    text-decoration: underline;
+    color: white;
+  
+}
