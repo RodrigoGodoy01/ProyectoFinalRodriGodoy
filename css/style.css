@@ -239,7 +239,7 @@
     grid-template-rows: repeat(1 , 1fr);
     }
   .pieDePagina{
-    font-size: 60%;
+    font-size: 14px;
         width: 40%;
         
     }
