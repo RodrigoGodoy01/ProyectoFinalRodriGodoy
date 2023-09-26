@@ -1,3 +1,274 @@
 
 
-/*# sourceMappingURL=style.css.map */
+.navegable{
+    background-color: #404040;
+    border: .3rem solid #8b8b8b;
+    border-left: 0px;
+    border-right: 0px;
+    border-top: 0px;
+    
+}
+.navegable ul{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+/* diseño de botones del navbar */
+.navegable a {
+    text-decoration: none;
+    
+
+
+}
+.navegable ul{
+    list-style-type: none;
+    display: flex;
+    text-align: center;
+     
+}
+.navegable ul li{
+ 
+    padding: 0.6rem;
+    border: 0.1rem solid #e9f1e9;
+    border-radius: 0.3rem;
+    
+    margin: 1rem;
+}
+/* body configuracion */
+.cuerpoPagina{
+    background-color: #404040;
+}
+.infoCardsInicio {
+    display: grid;
+    background-color: #404040;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-template-rows: repeat(2 , 1fr);
+    padding:2rem;
+    gap: 4rem;
+    
+}
+.card1{
+    font-family: 'Times New Roman', Times, serif;
+    border: .3rem solid #412e2b;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 2rem;
+    border-radius: .5rem;
+}
+.card1 img{
+    height: 200px;
+}
+
+.info{
+    background-color: #404040;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ /* footer configuracion */
+.pieDePagina{
+    background-color: #404040;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+/* configuracion cuerpo Microprocesadores */
+
+.datosMicros {
+    background-color: #404040;
+    font-family: monospace;
+}
+.accordion-body{
+    background-color: #2b2b2b;
+    color: #cdcdcd;
+    font-size: 1.2rem;
+}
+.cardProcesadores{
+    background-color: #404040;
+    font-family: monospace;
+    padding: 2rem;
+    display: flex;
+}
+.card-body{
+    background-color: #47403f;
+    padding: 2rem;
+    color: white;
+}
+
+.cardProcesadores ul{
+    text-decoration:none;
+    list-style: none;
+    color: white;
+}
+/* configuracion Cuerpo MOthers */
+.cuerpoMothers{
+    background-color: #404040;
+    display: grid;
+    padding: 3rem;
+    justify-content: center;
+    align-items: center;
+    text-justify: center;
+
+}
+.infoPrincipal p{
+    color: white;
+    border: .3rem solid #412e2b;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align:justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #4e4e4e;
+}
+.infoPrincipal h2{
+    text-align: center;
+    font-family: monospace;
+    font-size: 2rem;
+    text-decoration: underline;
+    color: white;
+    display: flex;
+}
+.tipoMother{
+    color: white;
+    border: .3rem solid #412e2b;
+    border-radius: 1rem;
+    padding: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #4e4e4e;
+    display: inline-block;
+    
+}
+
+.perifericosPanel{
+    color: white;
+    border: .3rem solid #412e2b;
+    border-radius: 1rem;
+    padding: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #4e4e4e;
+    
+}
+/* Cuerpo Ram */
+.cuerpoRam{
+    background-color: #404040;
+    justify-content: center;
+    align-items: center;
+    text-justify: center;
+    display: block;
+}
+.infoRam{
+    color: white;
+    border: .3rem solid #412e2b;
+    border-radius: 1rem;
+    padding: 2rem;
+
+}
+.infoRam h5{
+    text-align: center;
+    font-family: monospace;
+    font-size: 2rem;
+    text-decoration: underline;
+    color: white;
+  
+}
+/* Cuerpo Graficas */
+.infoGraficas{
+    background-color: #404040;
+    
+}
+
+/* media query */
+@media (max-width: 1400px) {
+    .navegable {
+      width: 100%;
+    }
+    .tituloYNavegable{
+        width: 100%;
+        
+    }
+  .infoCardsInicio{
+
+        width: 100%;
+        
+    }
+  .pieDePagina{
+ 
+        width: 100%;
+    
+    }
+}
+@media screen and (max-width: 906px) {
+    .navegable {
+      width: 40%;
+      font-size: 60%;
+    }
+    .tituloYNavegable{
+        width: 40%;
+        font-size: 60%;
+    }
+  .infoCardsInicio{
+    width: 40%;
+    padding: 1rem;
+    gap: 1rem;
+    grid-template-columns: repeat(1 , 1fr);
+    grid-template-rows: repeat(1 , 1fr);
+    }
+  .pieDePagina{
+    font-size: 60%;
+        width: 40%;
+        
+    }
+    .card1{
+        font-size: 60%;
+    }
+}
+
+
+
+@media screen and (max-width: 516px) {
+    .navegable {
+      width: 40%;
+      font-size: 60%;
+      display: grid;
+      grid-template-columns: repeat(3 , 1fr);
+      grid-template-rows: repeat(2 , 1fr);
+    }
+    .navegable ul{
+        display: grid;
+        grid-template-columns: repeat(3 , 1fr);
+        grid-template-rows: repeat(2 , 1fr);
+    }
+    
+    
+    
+    
+    
+    
+    
+    .tituloYNavegable{
+        width: 40%;
+        font-size: 60%;
+    }
+  .infoCardsInicio{
+    width: 40%;
+    padding: 1rem;
+    gap: 1rem;
+    grid-template-columns: repeat(1 , 1fr);
+    grid-template-rows: repeat(1 , 1fr);
+    padding: 0;
+    }
+  .pieDePagina{
+    font-size: 60%;
+        width: 40%;
+        
+    }
+    .card1{
+        font-size: 60%;
+    }
+}
+
