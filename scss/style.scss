@@ -1,0 +1,189 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    h1 {
+        font-size: 5rem;
+        color: #cdcdcd;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        text-align: center;
+        text-decoration: underline;
+
+    }
+
+    div {
+        background-color: #404040;
+        border: .3rem solid #8b8b8b;
+        border-left: 0px;
+        border-right: 0px;
+        border-top: 0px;
+
+        ul {
+            list-style-type: none;
+            display: flex;
+            text-align: center;
+
+            li {
+                padding: 0.6rem;
+                border: 0.1rem solid #e9f1e9;
+                border-radius: 0.3rem;
+                margin: 1rem;
+            }
+
+            a {
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+section {
+    display: grid;
+    background-color: #404040;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding: 2rem;
+    gap: 4rem;
+
+    div {
+        font-family: 'Times New Roman', Times, serif;
+        border: .3rem solid #412e2b;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        padding: 2rem;
+        border-radius: .5rem;
+
+        img {
+            height: 200px;
+        }
+
+    }
+}
+
+footer {
+    background-color: #404040;
+    align-items: center;
+    justify-content: center;
+
+}
+
+section {
+    .datosMicros {
+        background-color: #404040;
+        font-family: monospace;
+    }
+
+    .accordion-body {
+        background-color: #2b2b2b;
+        color: #cdcdcd;
+        font-size: 1.2rem;
+    }
+}
+
+section {
+    .cardProcesadores {
+        background-color: #404040;
+        font-family: monospace;
+        padding: 2rem;
+        display: flex;
+    }
+
+    .card-body {
+        background-color: #47403f;
+        padding: 2rem;
+        color: white;
+    }
+
+    ul {
+        text-decoration: none;
+        list-style: none;
+        color: white;
+    }
+}
+
+section {
+    .cuerpoMothers {
+        background-color: #404040;
+        display: grid;
+        padding: 3rem;
+        justify-content: center;
+        align-items: center;
+        text-justify: center;
+
+    }
+
+    .infoPrincipal {
+        p {
+            color: white;
+            border: .3rem solid #412e2b;
+            border-radius: 1rem;
+            padding: 2rem;
+            text-align: justify;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            background-color: #4e4e4e;
+        }
+
+        h2 {
+            text-align: center;
+            font-family: monospace;
+            font-size: 2rem;
+            text-decoration: underline;
+            color: white;
+            display: flex;
+        }
+    }
+    .tipoMother{
+        color: white;
+        border: .3rem solid #412e2b;
+        border-radius: 1rem;
+        padding: 2rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        background-color: #4e4e4e;
+        display: inline-block;
+        
+      }
+      .perifericosPanel{
+        color: white;
+        border: .3rem solid #412e2b;
+        border-radius: 1rem;
+        padding: 2rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        background-color: #4e4e4e;
+        
+      }
+}
+section{
+    .cuerpoRam{
+        background-color: #404040;
+        justify-content: center;
+        align-items: center;
+        text-justify: center;
+        display: block;
+    }
+    .infoRam{
+        color: white;
+        border: .3rem solid #412e2b;
+        border-radius: 1rem;
+        padding: 2rem;
+      h5{
+        text-align: center;
+        font-family: monospace;
+        font-size: 2rem;
+        text-decoration: underline;
+        color: white;
+      
+      }
+      }
+}
+section{
+    .infoGraficas{
+        background-color: #404040;
+        
+      }
+     }
+
+      
