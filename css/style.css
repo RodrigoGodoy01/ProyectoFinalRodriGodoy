@@ -155,4 +155,108 @@ section .infoGraficas {
   background-color: #404040;
 }
 
+/* media query */
+@media (max-width: 1400px) {
+  .navegable {
+    width: 100%;
+  }
+  .tituloYNavegable{
+      width: 100%;
+      
+  }
+.infoCardsInicio{
+
+      width: 100%;
+      
+  }
+
+}
+@media screen and (max-width: 906px) {
+  header h1{
+    font-size: 100px;
+  }
+  .navegable {
+    width: 40%;
+    font-size: 60%;
+  }
+  .tituloYNavegable{
+      width: 40%;
+      font-size: 60%;
+  }
+.infoCardsInicio{
+  display: block;
+  width: 1.4rem;
+  padding: 1rem;
+  gap: 1rem;
+  grid-template-columns: repeat(1 , 1fr);
+  grid-template-rows: repeat(4 , 1fr);
+  }
+.pieDePagina{
+  font-size: 14px;
+      width: 40%;
+      
+  }
+  .card1{
+      font-size: 60%;
+      width: 40%;
+      padding: 1rem;
+  }
+  .imgCard{
+    height: 50px;
+
+  }
+}
+
+
+
+@media screen and (max-width: 516px) {
+  header h1{
+    font-size:75px;
+  }
+  .navegable {
+    width: 40%;
+    font-size: 60%;
+    display: grid;
+    grid-template-columns: repeat(1 , 1fr);
+      grid-template-rows: repeat(6 , 1fr);
+  }
+  .navegable ul{
+      display: grid;
+      grid-template-columns: repeat(1 , 1fr);
+      grid-template-rows: repeat(6 , 1fr);
+  }
+  
+  
+  
+  
+  
+  
+  
+  .tituloYNavegable{
+      width: 40%;
+      font-size: 60%;
+  }
+.infoCardsInicio{
+  width: 40%;
+  padding: 1rem;
+  gap: 1rem;
+  grid-template-columns: repeat(1 , 1fr);
+  grid-template-rows: repeat(1 , 1fr);
+  padding: 0;
+  }
+.pieDePagina{
+  font-size: 60%;
+      width: 40%;
+      
+  }
+  .card1{
+      font-size: 60%;
+  }
+  .imgCard{
+    width:50px ;
+  }
+
+}
+
+
 /*# sourceMappingURL=style.css.map */
